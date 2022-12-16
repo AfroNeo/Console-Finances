@@ -86,3 +86,49 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+console.log(finances);
+let months = finances.length;
+
+console.log(months);
+
+let total = 0;
+console.log(finances[0][1]);
+console.log(finances[5][1]);
+
+for (let i = 0; i <finances.length; i++) {
+total+= finances [i][1];
+console.log(finances [i][1]);
+}
+console.log("total", total);
+
+// find the average change from month to month
+// compare each months profits and loss by using subtractions, adding,
+// create an array to store the changes from month to month
+// Google how to add items to an Array
+// Then, use a For Loop to add the numbers up in order to find the average
+// Ensure to divide it by new array length
+// console.log Everything - good tool to use
+// remember else if
+
+
+let average = 0;
+
+for (let i = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
+
+console.log()
+
+// if (condition) {
+    
+//     else {}
+// }
+
+// if else {
+
+// }
+
+
+
